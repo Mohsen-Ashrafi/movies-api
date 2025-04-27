@@ -1,9 +1,14 @@
 {
   "name": "movies-api",
   "version": "1.0.0",
+  "description": "A simple JSON Server for Movies API",
+  "main": "server.js",
   "scripts": {
-    "start": "json-server --watch db.json --port 3000"
+    "start": "node server.js"
   },
+  "keywords": [],
+  "author": "Mohsen Ashrafi",
+  "license": "MIT",
   "dependencies": {
     "json-server": "^0.17.0"
   }
